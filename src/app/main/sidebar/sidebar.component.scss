@@ -11,27 +11,6 @@
     flex-direction: column;
 }
 
-h1 {
-    color: whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bold;
-}
-
-.title {
-    position: fixed;
-    top: 0;
-    height: 150px;
-    background-color: black;
-    width: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.coin-list {
-    margin-top: 200px;
-}
-
 .coins-container {
     cursor: pointer;
 }
