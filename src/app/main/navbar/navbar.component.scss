@@ -1,0 +1,22 @@
+nav {
+    height: 50px;
+    width: calc(100vw - 350px);
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+        li {
+            margin-right: 16px;
+            color: whitesmoke;
+            font-weight: bold;
+        }
+    }
+}
+
+a {
+    cursor: pointer;
+}
