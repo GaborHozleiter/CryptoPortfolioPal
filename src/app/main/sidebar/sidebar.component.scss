@@ -5,7 +5,7 @@
     top: 0;
     max-height: 100vh;
     overflow-y: auto;
-    background-color: rgb(5, 49, 67);
+    background-color: #011F35;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -20,8 +20,21 @@ h1 {
 .title {
     position: fixed;
     top: 0;
+    height: auto;
 }
 
 .coin-list {
     margin-top: 100px;
+}
+
+.coins-container {
+    cursor: pointer;
+}
+
+.coin {
+    color: whitesmoke;
+}
+
+.coin-container {
+    margin-top: 8px;
 }

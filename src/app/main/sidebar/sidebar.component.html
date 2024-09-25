@@ -3,8 +3,10 @@
         <h1>Dashboard</h1>
     </div>
     <div class="coin-list">
-        <div *ngFor="let coin of coins">
-            {{ coin.name }}
+        <div *ngFor="let coin of coins" class="coins-container">
+            <div (click)="openCoin(coin.name , coin.priceUsd)" class="coin-container">
+                <span class="coin">{{ coin.name }}</span>
+            </div>
         </div>
     </div>
 </div>

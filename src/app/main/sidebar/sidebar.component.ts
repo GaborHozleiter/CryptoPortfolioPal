@@ -20,4 +20,8 @@ export class SidebarComponent implements OnInit{
       this.coins = data.data;
     });
   }
+
+  openCoin(coin:any, price: any){
+    alert(coin + price);
+  }
 }
