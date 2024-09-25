@@ -20,11 +20,16 @@ h1 {
 .title {
     position: fixed;
     top: 0;
-    height: auto;
+    height: 150px;
+    background-color: black;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .coin-list {
-    margin-top: 100px;
+    margin-top: 200px;
 }
 
 .coins-container {
