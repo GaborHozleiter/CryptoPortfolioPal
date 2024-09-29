@@ -1,10 +1,8 @@
 <div class="dashboard-header-container">
     <h1>Coins</h1>
-    <div class="scroll-buttons">
-        <button (click)="scrollLeft()">⬅️</button>
-        <button (click)="scrollRight()">➡️</button>
-    </div>
     <div class="coins-container" #coinContainer>
+        <button (click)="scrollLeft()" class="scroll-button-left">L</button>
+        <button (click)="scrollRight()" class="scroll-button-right">R</button>
         <div class="coin-container" *ngFor="let coin of coins">
             <div><span class="coin-detail">{{ coin.name }}</span></div>
             <div><span class="coin-detail">{{ coin.symbol }}</span></div>

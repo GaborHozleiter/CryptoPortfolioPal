@@ -25,14 +25,14 @@ export class DashboardHeaderComponent {
 
   scrollLeft() {
     this.coinContainer.nativeElement.scrollBy({
-      left: -150, // Scroll nach links (z.B. 150px)
+      left: -150, 
       behavior: 'smooth'
     });
   }
 
   scrollRight() {
     this.coinContainer.nativeElement.scrollBy({
-      left: 150, // Scroll nach rechts (z.B. 150px)
+      left: 150, 
       behavior: 'smooth'
     });
   }
