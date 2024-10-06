@@ -31,16 +31,36 @@ h1 {
     margin-bottom: 10px;
 }
 
+.arrow {
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 8px solid white;
+    transform: translateX(-3px);
+}
+
+.arrow-left {
+    transform: translateX(-5px) rotate(180deg);
+}
+
 button {
-    background-color: rgb(84, 162, 193);
+    background-color: #010E17;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    background-color: green;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+        background-color: rgb(19, 90, 118);
+    }
 }
 
 .coin-container {

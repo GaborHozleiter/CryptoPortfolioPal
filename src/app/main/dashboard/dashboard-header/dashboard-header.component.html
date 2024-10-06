@@ -3,8 +3,8 @@
         <h1>Coins</h1>
     </div>
     <div class="coins-container" #coinContainer>
-        <button (click)="scrollLeft()" class="scroll-button-left">L</button>
-        <button (click)="scrollRight()" class="scroll-button-right">R</button>
+        <button (click)="scrollLeft()" class="scroll-button-left"><span class="arrow-left arrow"></span></button>
+        <button (click)="scrollRight()" class="scroll-button-right"><span class="arrow"></span></button>
         <div class="coin-container" *ngFor="let coin of coins">
             <div><span class="coin-detail">{{ coin.name }}</span></div>
             <div><span class="coin-detail">{{ coin.symbol }}</span></div>

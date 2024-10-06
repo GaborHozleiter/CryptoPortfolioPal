@@ -1,7 +1,7 @@
 nav {
     height: 50px;
     width: 100vw;
-    background-color: rgb(19, 90, 118);;
+    background-color: rgb(19, 90, 118);
     position: absolute;
     top: 0;
     right: 0;
@@ -19,4 +19,8 @@ nav {
 
 a {
     cursor: pointer;
+}
+
+.active {
+    color: #010E17;
 }
